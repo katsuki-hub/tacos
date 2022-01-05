@@ -1,0 +1,380 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html, body {
+	height: 100%;
+}
+
+body {
+	min-width: 280px;
+	background-image: url(../images/bg.png);
+	background-size: contain;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.main-video {
+	position: relative;
+	box-sizing: border-box;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 6px;
+	background-color: rgba(255, 255, 255, 0.33);
+	border-left: #dadada 1px solid;
+	border-right: #dadadab6 1px solid;
+	min-height: 80%;
+	min-height: calc(100% - 200px);
+}
+
+.v2 {
+	overflow: hidden;
+}
+
+.main .column {
+	display: flex;
+}
+
+.main .v2 {
+	flex-wrap: wrap;
+	width: 50%;
+	margin: 4px;
+}
+
+.v2 img {
+	margin-bottom: 50px;
+}
+
+.v2 img:hover {
+	transform: scale(1.04);
+	transition-duration: 0.6s;
+}
+
+.main p {
+	font-size: 14px;
+	text-align: center;
+	margin: 0;
+	padding: 6px;
+	background-color: black;
+	color: #fff;
+	margin-top: -57px;
+	margin-bottom: 30px;
+}
+
+
+
+header {
+	max-width: 1200px;
+	margin: 0 auto;
+	background-image: url(../images/header.png);
+	background-size: cover;
+	border-top: #f2f7dc 3px solid;
+	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.header-contents {
+	box-sizing: border-box;
+	max-width: 1200px;
+	margin: 0 auto;
+	min-height: 100px;
+	background-image: url(../images/header-logo.png);
+	background-repeat: no-repeat;
+	background-position: 5px 30%;
+}
+
+.header-contents h1, .header-contents h2 {
+	margin: 0;
+	color: #fff;
+	line-height: 1;
+}
+
+.header-contents h1 {
+	padding: 20px 0 10px 100px;
+	font-size: 28px;
+	text-shadow: #000 2px 0, #000 -2px 0, #000 0 -2px, #000 0 2px, #000 2px 2px, #000 -2px 2px, #000 2px -2px, #000 -2px -2px, #000 1px 2px, #000 -1px 2px, #000 1px -2px, #000 -1px -2px, #000 2px 1px, #000 -2px 1px, #000 2px -1px, #000 -2px -1px, 4px 4px 0 #000, 0 4px 0 #000;
+}
+
+.header-contents h2 {
+	padding: 0 0 0 100px;
+	font-size: 22px;
+	font-weight: normal;
+	text-shadow: 2px 2px 2px rgb(255, 0, 0);
+}
+
+section h1 {
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 0;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 0;
+}
+
+section h1::before {
+	content: attr(data-en);
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: rgba(66, 27, 209, 0.363);
+	font-size: 60px;
+	font-style: italic;
+}
+
+section h2 {
+	position: relative;
+	text-align: center;
+	margin: 15px;
+	padding: 0.5rem 0.5rem calc(0.5rem + 3px);
+	background: #fff100;
+	margin-bottom: 3px;
+}
+
+section h2:before {
+	position: absolute;
+	top: -8px;
+	left: -8px;
+	width: 99%;
+	height: 90%;
+	content: '';
+	border: 5px solid #000;
+}
+
+h3 {
+	position: relative;
+	display: inline-block;
+	height: 25px;
+	margin-left: 30px;
+	margin-bottom: 0;
+	padding: 1rem 0.5rem 1rem 1rem;
+	color: #fff;
+	background: #33899e;
+	text-align: center;
+	font-size: 15px;
+}
+
+h3:before {
+	position: absolute;
+	top: 0;
+	left: -30px;
+	content: '';
+	border-width: 25px 30px 32px 0;
+	border-style: solid;
+	border-color: transparent #33899e transparent transparent;
+}
+
+h3:after {
+	position: absolute;
+	top: calc(50% - 7px);
+	left: -10px;
+	width: 14px;
+	height: 14px;
+	content: '';
+	border-radius: 50%;
+	background: #fff;
+}
+
+h4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	text-align: center;
+}
+
+h4::before, h4::after {
+	content: '';
+	width: 2px;
+	height: 30px;
+	background-color: #3fc1c9;
+}
+
+h4::before {
+	margin-right: 30px;
+	transform: rotate(-35deg)
+}
+
+h4::after {
+	margin-left: 30px;
+	transform: rotate(35deg)
+}
+
+ul {
+	padding: 0;
+	position: relative;
+}
+
+.red {
+	font-size: 18px;
+	color: red;
+	font-weight: bold;
+}
+
+footer {
+	padding: 8px;
+	background-color: rgb(240, 240, 200);
+	color: black;
+	text-align: right;
+}
+
+a:hover {
+	color: #489247;
+	text-decoration: underline;
+}
+
+.realday {
+	font-size: 34px;
+	color: rgb(0, 21, 85);
+	font-weight: bold;
+}
+
+.realtime {
+	font-size: 22px;
+	color: rgb(0, 141, 75);
+	font-weight: bold;
+}
+
+.video {
+	width: 100%;
+}
+
+.blank {
+	height: 350px;
+}
+
+.blank2 {
+	height: 240px;
+}
+
+.blank3 {
+	height: 100px;
+}
+
+.col4 img {
+	width: 75px;
+	margin-bottom: 50px;
+}
+
+.col4 p {
+	position: absolute;
+	font-size: 10px;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 75px;
+	padding: 0;
+	margin-top: -57px;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+@media (max-width: 600px) {
+	header {
+		background-position: 32% 50%;
+		border-top: #f2f7dc 5px solid;
+	}
+
+	.header-contents {
+		min-height: 75px;
+		background-size: 40px 40px;
+		background-position: 10px 50%;
+	}
+
+	.header-contents h1 {
+		padding: 15px 0 5px 60px;
+		font-size: 24px;
+	}
+
+	.header-contents h2 {
+		padding: 0 0 0 60px;
+		font-size: 18px;
+	}
+
+	.main-wrapper {
+		font-size: 16px;
+		line-height: 1.5em;
+	}
+
+	.gim li {
+		font-size: 15px;
+		padding: 10px 4px 10px 30px;
+	}
+
+	h3 {
+		position: relative;
+		display: inline-block;
+		height: 25px;
+		margin-left: 30px;
+		margin-bottom: 0;
+		padding: 1rem 0.5rem 1rem 1rem;
+		color: #fff;
+		background: #33899e;
+		text-align: center;
+		font-size: 11px;
+	}
+
+	.main-video p {
+		font-size: 13px;
+	}
+}
+
+/*600px以上は2カラム指定*/
+
+@media (min-width: 600px) {
+	.column {
+		display: flex;
+	}
+
+	.v2 {
+		flex-wrap: wrap;
+		width: 50%;
+		margin: 15px;
+	}
+}
+
+/*タブレット以上指定*/
+
+@media (min-width: 769px) {
+	.newsimgpc {
+		background-image: url(../images/2020tokyopc.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		margin: -31px;
+	}
+}
+
+/*タブレットx以下指定*/
+
+@media (max-width: 768px) {
+	.newsimg {
+		background-image: url(../images/narahara.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin: -31px;
+	}
+
+	.newsimg2 {
+		background-image: url(../images/nogunona.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin: -31px;
+	}
+
+	.news tr {
+		font-size: 10px;
+	}
+
+	.gim a {
+		font-size: 14px;
+	}
+
+	.area {
+		font-size: 14px;
+	}
+}
