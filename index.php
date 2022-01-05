@@ -48,12 +48,12 @@
         <div class="column">
           <div class="v2">
             <h3>はじまりの動画</h3>
-            <a href="video/tacotube01.mp4" controlsList="nodownload" oncontextmenu="return false;"><img class="video" src="images/b15.jpg" alt="はじまりの動画"></a>
+            <a href="video/tacotube01.mp4" controlsList="nodownload" oncontextmenu="return false;"><img class="video" src="images/t01.jpg" alt="はじまりの動画"></a>
             <p>はじまりのおわり<br>多分、高校生</p>
           </div>
           <div class="v2">
             <h3>テニス活動</h3>
-            <a href="video/tacotube02.mp4" controlsList="nodownload" oncontextmenu="return false;"><img class="video" src="images/b14.jpg" alt="テニス活動"></a>
+            <a href="video/tacotube02.mp4" controlsList="nodownload" oncontextmenu="return false;"><img class="video" src="images/t02.jpg" alt="テニス活動"></a>
             <p>よく遊んでた「ざき」でテニス</p>
           </div>
         </div>
