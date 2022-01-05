@@ -6,23 +6,16 @@ html, body {
 
 body {
 	min-width: 380px;
-	background-image: url(../images/bg.png);
-	background-size: contain;
-	background-attachment: fixed;
+	background:rgba(209, 221, 211, 0.5);
 	margin: 0;
 	padding: 0;
 	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 .main {
-	position: relative;
-	box-sizing: border-box;
 	max-width: 1200px;
 	margin: 50px auto;
 	padding: 6px;
-	background-color: rgba(255, 255, 255, 0.33);
-	border-left: #dadada 1px solid;
-	border-right: #dadadab6 1px solid;
 	min-height: 80%;
 	min-height: calc(100% - 200px);
 }
@@ -75,7 +68,7 @@ body {
 header {
 	max-width: 1200px;
 	margin: 0 auto;
-	background: rgb(235, 202, 202);
+	background: rgb(235, 218, 181);
 	background-size: cover;
 	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
 }
@@ -222,7 +215,7 @@ ul {
 
 footer {
 	padding: 8px;
-	background-color: rgb(240, 240, 200);
+	background-color: rgb(235, 218, 181);
 	color: black;
 	text-align: right;
 }
@@ -248,7 +241,22 @@ a:hover {
 	height: 100px;
 }
 
-@media (max-width: 600px) {
+
+/*=====================
+スマホ
+=====================*/
+
+@media (max-width: 480px) {
+	.left-column {
+		float: none;
+		width: 100%;
+	}
+
+	.right-culumn {
+		float: none;
+		width: 100%;
+	}
+
 	header {
 		background-position: 32% 50%;
 		border-top: #f2f7dc 3px solid;
@@ -290,19 +298,5 @@ a:hover {
 
 	.main-video p {
 		font-size: 13px;
-	}
-}
-
-/*500px以上は2カラム指定*/
-
-@media (min-width: 500px) {
-	.column {
-		display: flex;
-	}
-
-	.v2 {
-		flex-wrap: wrap;
-		width: 50%;
-		margin: 15px;
 	}
 }

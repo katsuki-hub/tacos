@@ -17,7 +17,7 @@
   <meta property="og:description" content="TacosTube動画">
   <meta property="og:url" content="https://tacos-2022.site">
   <meta property="og:site_name" content="TacosTube">
-  <meta property="og:image" content="https://tacos-2022.site/images/teru.jpg">
+  <meta property="og:image" content="https://tacos-2022.site/images/teru.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="TacosTube">
@@ -48,19 +48,20 @@
         <div class="column">
           <div class="left-column">
             <h3>はじまりの動画</h3>
-            <a href="video/tacotube01.mp4" controlsList="nodownload" oncontextmenu="return false;"><img class="video" src="images/poster/t01.jpg" alt="はじまりの動画"></a>
+            <video src="video/tacotube01.mp4" poster="images/poster/t01.jpg" playsinline width="100%" controls
+            controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            
             <p>はじまりのおわり<br>多分、高校生</p>
           </div>
           <div class="right-culumn">
             <h3>テニス活動</h3>
-            <a href="video/tacotube02.mp4" controlsList="nodownload" oncontextmenu="return false;"><img class="video" src="images/poster/t02.jpg" alt="テニス活動"></a>
+            <video src="video/tacotube02.mp4" poster="images/poster/t02.jpg" playsinline width="100%" controls
+            controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
             <p>よく遊んでた「ざき」でテニス</p>
           </div>
         </div>
-
         
       </section>
-
 
 
     </article>
