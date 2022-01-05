@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-	min-width: 280px;
+	min-width: 380px;
 	background-image: url(../images/bg.png);
 	background-size: contain;
 	background-attachment: fixed;
@@ -39,13 +39,13 @@ body {
 
 .left-column {
 	float: left;
-	width: 50%;
+	width: 47%;
 	margin: 4px;
 }
 
 .right-culumn {
 	float: right;
-	width: 50%;
+	width: 47%;
 	margin: 4px;
 }
 
@@ -85,9 +85,10 @@ header {
 	max-width: 1200px;
 	margin: 0 auto;
 	min-height: 100px;
-	background-image: url(../images/header-logo.png);
+	background-image: url(../images/maa.png);
 	background-repeat: no-repeat;
-	background-position: 5px 30%;
+	background-position: 2px 30%;
+	background-size: 100px 100px;
 }
 
 .header-contents h1, .header-contents h2 {
@@ -250,13 +251,13 @@ a:hover {
 @media (max-width: 600px) {
 	header {
 		background-position: 32% 50%;
-		border-top: #f2f7dc 5px solid;
+		border-top: #f2f7dc 3px solid;
 	}
 
 	.header-contents {
 		min-height: 75px;
-		background-size: 40px 40px;
-		background-position: 10px 50%;
+		background-size: 60px 60px;
+		background-position: 0 50%;
 	}
 
 	.header-contents h1 {
