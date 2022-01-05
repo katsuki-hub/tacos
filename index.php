@@ -15,7 +15,7 @@
   <meta property="og:title" content="TacosTube">
   <meta property="og:type" content="website">
   <meta property="og:description" content="TacosTube動画">
-  <meta property="og:url" content="">
+  <meta property="og:url" content="https://tacos-2022.site">
   <meta property="og:site_name" content="TacosTube">
   <meta property="og:image" content="https://tacos-2022.site/images/teru.jpg">
   <meta name="apple-mobile-web-app-capable" content="yes">
