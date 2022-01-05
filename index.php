@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ja">
+<html lang="ja" prefix="og:http://ogp.me/ns#">
 
 <head>
   <meta charset="UTF-8">
@@ -17,7 +17,7 @@
   <meta property="og:description" content="TacosTube動画">
   <meta property="og:url" content="">
   <meta property="og:site_name" content="TacosTube">
-  <meta property="og:image" content="https://katsu-climbing.site/images/bb.png">
+  <meta property="og:image" content="https://tacos-2022.site/images/teru.jpg">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="TacosTube">
@@ -42,26 +42,27 @@
   </header>
   <div class="main">
     <article>
-      <section>
+      <section id="gallery">
         <h2>ちょっぴり昔の動画一覧</h2>
 
         <div class="column">
-          <div class="v2">
+          <div class="left-column">
             <h3>はじまりの動画</h3>
             <a href="video/tacotube01.mp4" controlsList="nodownload" oncontextmenu="return false;"><img class="video" src="images/t01.jpg" alt="はじまりの動画"></a>
             <p>はじまりのおわり<br>多分、高校生</p>
           </div>
-          <div class="v2">
+          <div class="right-culumn">
             <h3>テニス活動</h3>
             <a href="video/tacotube02.mp4" controlsList="nodownload" oncontextmenu="return false;"><img class="video" src="images/t02.jpg" alt="テニス活動"></a>
             <p>よく遊んでた「ざき」でテニス</p>
           </div>
         </div>
 
-
         
-
       </section>
+
+
+
     </article>
   </div><!-- /main -->
 
