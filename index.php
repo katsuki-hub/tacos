@@ -48,19 +48,33 @@
         <div class="column">
           <div class="left-column">
             <h3>はじまりの動画</h3>
-            <video src="video/tacotube01.mp4" poster="images/poster/t01.jpg" playsinline width="100%" controls
-            controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            
+            <video src="video/tacotube01.mp4" poster="images/poster/t01.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+
             <p>はじまりのおわり<br>多分、高校生</p>
           </div>
           <div class="right-culumn">
             <h3>テニス活動</h3>
-            <video src="video/tacotube02.mp4" poster="images/poster/t02.jpg" playsinline width="100%" controls
-            controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <video src="video/tacotube02.mp4" poster="images/poster/t02.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
             <p>よく遊んでた「ざき」でテニス</p>
           </div>
         </div>
+
+        <div class="chara1"></div>
+        <div class="blank0"></div>
         
+        <div class="column">
+          <div class="left-column">
+            <h3>はじまりの動画</h3>
+            <video src="video/tacotube01.mp4" poster="images/poster/t01.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+
+            <p>はじまりのおわり<br>多分、高校生</p>
+          </div>
+          <div class="right-culumn">
+            <h3>テニス活動</h3>
+            <video src="video/tacotube02.mp4" poster="images/poster/t02.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>よく遊んでた「ざき」でテニス</p>
+          </div>
+        </div>
       </section>
 
 
@@ -68,8 +82,7 @@
   </div><!-- /main -->
 
   <footer><small>&copy; 2022 TacosTube</small></footer>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </body>
 
 </html>
