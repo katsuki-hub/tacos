@@ -16,8 +16,8 @@ body {
 
 .main {
 	max-width: 1200px;
-	margin: 50px auto;
-	padding: 6px;
+	margin: 40px auto;
+	padding: 0 15px;
 	min-height: 80%;
 	min-height: calc(100% - 200px);
 }
@@ -33,14 +33,12 @@ body {
 
 .left-column {
 	float: left;
-	width: 47%;
-	margin: 4px;
+	width: 48%;
 }
 
 .right-culumn {
 	float: right;
-	width: 47%;
-	margin: 4px;
+	width: 48%;
 }
 
 .column video {
