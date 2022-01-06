@@ -242,7 +242,7 @@ a:hover {
 }
 
 .blank0 {
-	margin-top: -180px;
+	margin-top: -10rem;
 }
 
 .blank {
@@ -260,8 +260,16 @@ a:hover {
 .chara1 {
 	height: 300px;
 	background: url("../images/teru.png")no-repeat;
-	background-size: 25%;
+	background-size: 30%;
 	animation: stepline 10s steps(250) infinite;
+}
+
+.chara2 {
+	margin-top: -19rem;
+	height: 300px;
+	background: url("../images/maa.png")no-repeat;
+	background-size: 30%;
+	animation: stepline 7s steps(250) infinite;
 }
 
 @keyframes stepline {

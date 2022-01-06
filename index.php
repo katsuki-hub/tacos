@@ -60,6 +60,7 @@
         </div>
 
         <div class="chara1"></div>
+        <div class="chara2"></div>
         <div class="blank0"></div>
         
         <div class="column">
