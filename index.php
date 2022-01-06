@@ -62,7 +62,7 @@
         <div class="chara1"></div>
         <div class="chara2"></div>
         <div class="blank0"></div>
-        
+
         <div class="column">
           <div class="left-column">
             <h3>はじまりの動画</h3>
@@ -78,7 +78,14 @@
         </div>
       </section>
 
+      <div class="blank3"></div>
 
+      <section>
+        <div class="don">
+          <h2>タコスのゲームチャンネル</h2>
+          <a href="https://youtube.com/channel/UC--hSAY-QaZVAkbtYxmlWbA"><img src="images/dontacos.jpg" alt="ドンタコス" width="70%"></a>
+        </div>
+      </section>
     </article>
   </div><!-- /main -->
 

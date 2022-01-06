@@ -7,7 +7,7 @@ html, body {
 body {
 	min-width: 380px;
 	background: url("../images/wood.jpg");
-	background-size:  contain;
+	background-size: contain;
 	background-attachment: fixed;
 	margin: 0;
 	padding: 0;
@@ -135,10 +135,10 @@ section h1::before {
 section h2 {
 	position: relative;
 	text-align: center;
-	margin: 15px;
+	margin: 30px;
 	padding: 0.5rem 0.5rem calc(0.5rem + 3px);
 	background: #a7ccb8;
-	margin-bottom: 3px;
+	margin-bottom: 30px;
 }
 
 section h2:before {
@@ -280,6 +280,14 @@ a:hover {
 	100% {
 		background-position: 120% 0;
 	}
+}
+
+.don {
+	text-align: center;
+}
+
+img {
+	margin: 30px auto;
 }
 
 /*=====================
