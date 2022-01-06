@@ -85,10 +85,10 @@
           <h2>タコスのゲームチャンネル</h2>
           <a href="https://youtube.com/channel/UC--hSAY-QaZVAkbtYxmlWbA"><img src="images/dontacos.jpg" alt="ドンタコス" width="70%"></a>
         </div>
+        <a href="content/movie.php">test</a>
       </section>
     </article>
   </div><!-- /main -->
-
   <footer><small>&copy; 2022 TacosTube</small></footer>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </body>
