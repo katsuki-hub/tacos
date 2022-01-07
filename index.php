@@ -81,7 +81,7 @@
           <div class="right-culumn">
             <h3>テニス活動</h3>
             <video src="video/tacotube02.mp4" poster="images/poster/t02.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>よく遊んでた「ざき」でテニス</p>
+            <p>よく遊んでた「ざき」でテニス<br>懐かしい日々</p>
           </div>
         </div>
         <div class="chara1"></div>
@@ -89,15 +89,14 @@
 
         <div class="column">
           <div class="left-column">
-            <h3>はじまりの動画</h3>
-            <video src="video/tacotube01.mp4" poster="images/poster/t01.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-
-            <p>はじまりのおわり<br>多分、高校生</p>
+            <h3>テニスの続き</h3>
+            <video src="video/tacotube03.mp4" poster="images/poster/t03.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>ザキでよくしていたテニス<br>きっと、高校生</p>
           </div>
           <div class="right-culumn">
-            <h3>テニス活動</h3>
-            <video src="video/tacotube02.mp4" poster="images/poster/t02.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>よく遊んでた「ざき」でテニス</p>
+            <h3>フレッシュマン</h3>
+            <video src="video/tacotube04.mp4" poster="images/poster/t04.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>二人が合流<br>多分、社会人</p>
           </div>
         </div>
         <div class="blank3"></div>

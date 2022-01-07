@@ -25,44 +25,37 @@
         </div>
 
         <div class="items">
+
           <div class="item">
             <h3>はじまりの動画</h3>
             <video src="../video/tacotube01.mp4" poster="../images/poster/t01.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
             <p>はじまりのおわり<br>多分、高校生</p>
           </div>
+
           <div class="item">
             <h3>テニス活動</h3>
             <video src="../video/tacotube02.mp4" poster="../images/poster/t02.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>よく遊んでた「ざき」でテニス</p>
+            <p>よく遊んでた「ざき」でテニス<br>懐かしい日々</p>
           </div>
 
           <div class="item">
-            <p>item 3</p>
+            <h3>テニスの続き</h3>
+            <video src="../video/tacotube03.mp4" poster="../images/poster/t03.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>ザキでよくしていたテニス<br>きっと、高校生</p>
           </div>
+
           <div class="item">
-            <p>item 4</p>
+            <h3>フレッシュマン</h3>
+            <video src="../video/tacotube04.mp4" poster="../images/poster/t04.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>二人が合流<br>多分、社会人</p>
           </div>
+
           <div class="item">
-            <p>item 5</p>
+            <h3>たばこのテル</h3>
+            <video src="../video/tacotube05.mp4" poster="../images/poster/t05.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>俺がたばこ吸いよとこでも撮っとけ！<br>多分、浪人生</p>
           </div>
-          <div class="item">
-            <p>item 6</p>
-          </div>
-          <div class="item">
-            <p>item 7</p>
-          </div>
-          <div class="item">
-            <p>item 8</p>
-          </div>
-          <div class="item">
-            <p>item 9</p>
-          </div>
-          <div class="item">
-            <p>item 10</p>
-          </div>
-          <div class="item">
-            <p>item 11</p>
-          </div>
+
 
         </div><!-- /items -->
 
