@@ -23,14 +23,13 @@
         <div class="chara">
           <div class="chara6"></div>
         </div>
+
         <div class="items">
           <div class="item">
             <h3>はじまりの動画</h3>
             <video src="../video/tacotube01.mp4" poster="../images/poster/t01.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
             <p>はじまりのおわり<br>多分、高校生</p>
           </div>
-
-
           <div class="item">
             <h3>テニス活動</h3>
             <video src="../video/tacotube02.mp4" poster="../images/poster/t02.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>

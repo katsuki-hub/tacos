@@ -268,6 +268,7 @@ a:hover {
 }
 
 .chara1 {
+	margin-bottom: 2rem;
 	height: 400px;
 	background: url("../images/teru.png")no-repeat;
 	background-size: 30%;
@@ -312,7 +313,7 @@ a:hover {
 }
 
 .chara6 {
-	margin-bottom: -12rem;
+	margin-bottom: -8rem;
 	height: 300px;
 	background: url("../images/hara.png")no-repeat;
 	background-size: 30%;
@@ -482,7 +483,11 @@ a.more:active .more-top {
 @media (min-width: 780px) {
 
 	.chara4, .chara5 {
-		margin-bottom: 6rem;
+		margin-bottom: 5rem;
+		height: 350px;
+	}
+	.chara6 {
+		margin-bottom: 0;
 	}
 }
 
