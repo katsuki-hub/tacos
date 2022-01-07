@@ -4,6 +4,7 @@
 <head>
   <?php $title = "ゆかいな仲間の過去動画一覧" ?>
   <?php require_once "../common/head.php"; ?>
+  <link href="../css/page.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -19,13 +20,23 @@
     <article>
       <section>
         <h2>ゆかいな仲間の過去動画一覧</h2>
+        <div class="chara">
+          <div class="chara6"></div>
+        </div>
         <div class="items">
           <div class="item">
-            <p>item 1</p>
+            <h3>はじまりの動画</h3>
+            <video src="../video/tacotube01.mp4" poster="../images/poster/t01.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>はじまりのおわり<br>多分、高校生</p>
           </div>
+
+
           <div class="item">
-            <p>item 2</p>
+            <h3>テニス活動</h3>
+            <video src="../video/tacotube02.mp4" poster="../images/poster/t02.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>よく遊んでた「ざき」でテニス</p>
           </div>
+
           <div class="item">
             <p>item 3</p>
           </div>
@@ -53,7 +64,8 @@
           <div class="item">
             <p>item 11</p>
           </div>
-        </div>
+
+        </div><!-- /items -->
 
 
 
@@ -65,7 +77,15 @@
   </footer>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="../script/jquery.pagination.js"></script>
-  <script type="text/javascript" src="../script/page.js"></script>
+  <script>
+    $(function() {
+      $('.items').pagination({
+        itemElement: '> .item',
+        paginationClassName: 'pagination',
+        paginationInnerClassName: 'clearfix',
+      })
+    });
+  </script>
 </body>
 
 </html>

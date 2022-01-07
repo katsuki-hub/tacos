@@ -1,14 +1,36 @@
+@charset "UTF-8";
+
 /* ページネーション本体 */
-.pagination {}
+.pagination {
+  margin-top: 4rem;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  background: rgba(28, 21, 46, 0.5);
+}
 
 /* 前・次へ移動するボタン */
 .pagination .prev-page {}
 
 .pagination .next-page {}
 
-.pagination .prev-page button {}
+.pagination .prev-page button {
+  background: rgb(255, 200, 187);
+  width: 40px;
+  height: 40px;
+  margin: 0 24px;
+  text-align: center;
+  font-weight: bold;
+}
 
-.pagination .next-page button {}
+.pagination .next-page button {
+  background: rgb(255, 200, 187);
+  width: 40px;
+  height: 40px;
+  margin: 0 24px;
+  text-align: center;
+  font-weight: bold;
+}
 
 /* 前・次へ移動するボタンの無効化時 */
 .pagination .prev-page.disabled {}
@@ -40,12 +62,28 @@
 /* ページ別切り替えボタン */
 .pagination ul {}
 
-.pagination li {}
+.pagination li {
+  display: inline;
+  border-radius: 100%;
+}
 
-.pagination li a {}
+.pagination li a {
+  color: #ffffff;
+  font-weight: bold;
+	text-decoration: none;
+  padding: 6px 20px;
+}
+
+.pagination li a:hover {
+  background: rgba(170, 209, 137, 0.9);
+	border-radius: 50%;
+}
 
 /* カレント時（現在位置） */
-.pagination li.current {}
+.pagination li.current {
+  background: rgba(170, 209, 137, 0.5);
+	line-height: 40px;
+}
 
 .pagination li.current a {}
 

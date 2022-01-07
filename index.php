@@ -57,13 +57,18 @@
   <!-- End Google Tag Manager (noscript) -->
   <header>
     <div class="header-contents">
-      <h1>TacosTube</h1>
-      <h2>タコスとゆかいなおともだち</h2>
+      <?php require_once "common/header.php"; ?>
     </div><!-- /.header-contents -->
   </header>
   <div class="main">
     <article>
       <section id="gallery">
+        <div class="chara">
+          <div class="chara3"></div>
+          <div class="chara4"></div>
+          <div class="chara5"></div>
+          <div class="blank4"></div>
+        </div>
         <h2>ちょっぴり昔の動画一覧</h2>
 
         <div class="column">
@@ -79,9 +84,7 @@
             <p>よく遊んでた「ざき」でテニス</p>
           </div>
         </div>
-
         <div class="chara1"></div>
-        <div class="chara2"></div>
         <div class="blank0"></div>
 
         <div class="column">
@@ -97,6 +100,13 @@
             <p>よく遊んでた「ざき」でテニス</p>
           </div>
         </div>
+        <div class="blank3"></div>
+
+        <!-- 過去動画ボタン -->
+        <a class="more" href="content/movie.php">
+          <span class="more-bottom"></span>
+          <span class="more-top"><span>動画一覧へ</span></span>
+        </a>
       </section>
 
       <div class="blank3"></div>
@@ -106,7 +116,6 @@
           <h2>タコスのゲームチャンネル</h2>
           <a href="https://youtube.com/channel/UC--hSAY-QaZVAkbtYxmlWbA"><img src="images/dontacos.jpg" alt="ドンタコス" width="70%"></a>
         </div>
-        <a href="content/movie.php">test</a>
       </section>
     </article>
   </div><!-- /main -->
