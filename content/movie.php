@@ -24,24 +24,50 @@
           <div class="chara6"></div>
         </div>
 
+        <!--
+        <div class="item">
+          <h3></h3>
+          <video src="../video/tacotube.mp4" poster="../images/poster/t.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+          <p><br></p>
+        </div>
+        -->
+
         <div class="items">
 
+        <div class="item">
+          <h3>トライ！</h3>
+          <video src="../video/tacotube10.mp4" poster="../images/poster/t10.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+          <p>と、と、と、トラーイ！！<br>どれをトライアスロン…</p>
+        </div>
+
+        <div class="item">
+          <h3>がん</h3>
+          <video src="../video/tacotube09.mp4" poster="../images/poster/t09.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+          <p>がんってなに？？<br>なんで「がん」？？</p>
+        </div>
+
+        <div class="item">
+          <h3>撮してよ</h3>
+          <video src="../video/tacotube08.mp4" poster="../images/poster/t08.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+          <p>別の日のザキ<br>なつかしいね</p>
+        </div>
+
           <div class="item">
-            <h3>はじまりの動画</h3>
-            <video src="../video/tacotube01.mp4" poster="../images/poster/t01.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>はじまりのおわり<br>多分、高校生</p>
+            <h3>テニスに夢中</h3>
+            <video src="../video/tacotube07.mp4" poster="../images/poster/t07.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>さらにテニスの続き<br>高校生だったはず</p>
           </div>
 
           <div class="item">
-            <h3>テニス活動</h3>
-            <video src="../video/tacotube02.mp4" poster="../images/poster/t02.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>よく遊んでた「ざき」でテニス<br>懐かしい日々</p>
+            <h3>撮るなマジで！</h3>
+            <video src="../video/tacotube06.mp4" poster="../images/poster/t06.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>陽気なテルちゃん<br>恥ずかしがりモンチ</p>
           </div>
 
           <div class="item">
-            <h3>テニスの続き</h3>
-            <video src="../video/tacotube03.mp4" poster="../images/poster/t03.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>ザキでよくしていたテニス<br>きっと、高校生</p>
+            <h3>たばこのテル</h3>
+            <video src="../video/tacotube05.mp4" poster="../images/poster/t05.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>俺がたばこ吸いよとこでも撮っとけ！<br>多分、浪人生</p>
           </div>
 
           <div class="item">
@@ -51,16 +77,23 @@
           </div>
 
           <div class="item">
-            <h3>たばこのテル</h3>
-            <video src="../video/tacotube05.mp4" poster="../images/poster/t05.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>俺がたばこ吸いよとこでも撮っとけ！<br>多分、浪人生</p>
+            <h3>テニスの続き</h3>
+            <video src="../video/tacotube03.mp4" poster="../images/poster/t03.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>ザキでよくしていたテニス<br>きっと、高校生</p>
           </div>
 
+          <div class="item">
+            <h3>テニス活動</h3>
+            <video src="../video/tacotube02.mp4" poster="../images/poster/t02.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>よく遊んでた「ざき」でテニス<br>懐かしい日々</p>
+          </div>
 
+          <div class="item">
+            <h3>はじまりの動画</h3>
+            <video src="../video/tacotube01.mp4" poster="../images/poster/t01.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>はじまりのおわり<br>多分、高校生</p>
+          </div>
         </div><!-- /items -->
-
-
-
       </section>
     </article>
   </div><!-- /.main-wrapper -->

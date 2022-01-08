@@ -135,6 +135,7 @@ section h1::before {
 }
 
 section h2 {
+	font-size: 16px;
 	position: relative;
 	text-align: center;
 	margin: 30px;
@@ -241,6 +242,17 @@ a:hover {
 
 .video {
 	width: 100%;
+}
+
+.frame {
+	padding: 10px;
+	margin: 40px 20px 80px 20px;
+	border: 3px double #333333;
+	background-color: #dff6fc;
+}
+
+.frame li {
+	list-style: none;
 }
 
 .blank0 {
@@ -486,6 +498,7 @@ a.more:active .more-top {
 		margin-bottom: 5rem;
 		height: 350px;
 	}
+
 	.chara6 {
 		margin-bottom: 1rem;
 	}
@@ -515,7 +528,7 @@ a.more:active .more-top {
 =====================*/
 
 @media (max-width: 480px) {
-	/*
+
 	.left-column {
 		float: none;
 		width: 100%;
@@ -525,7 +538,7 @@ a.more:active .more-top {
 		float: none;
 		width: 100%;
 	}
-	*/
+
 
 	header {
 		background-position: 32% 50%;

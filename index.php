@@ -26,7 +26,7 @@
   <meta name=”robots” content=”noindex”>
   <title>TacosTube</title>
   <meta name="description" content="懐かしい過去動画">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css?v=20220108" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="android-touch-icon.png">
@@ -69,19 +69,23 @@
           <div class="chara5"></div>
           <div class="blank4"></div>
         </div>
-        <h2>ちょっぴり昔の動画一覧</h2>
-
+        <h2>NEWS</h2>
+        <div class="frame">
+          <ul>
+            <li>5本くらい動画をアップしたよ！<br>動画多すぎ！！！</li>
+          </ul>
+        </div>
+        <h2>最近アップした ちょっぴり昔の動画</h2>
         <div class="column">
           <div class="left-column">
-            <h3>はじまりの動画</h3>
-            <video src="video/tacotube01.mp4" poster="images/poster/t01.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-
-            <p>はじまりのおわり<br>多分、高校生</p>
+            <h3>トライ！</h3>
+            <video src="video/tacotube10.mp4" poster="images/poster/t10.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>と、と、と、トラーイ！！<br>どれをトライアスロン…</p>
           </div>
           <div class="right-culumn">
-            <h3>テニス活動</h3>
-            <video src="video/tacotube02.mp4" poster="images/poster/t02.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>よく遊んでた「ざき」でテニス<br>懐かしい日々</p>
+            <h3>がん</h3>
+            <video src="video/tacotube09.mp4" poster="images/poster/t09.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>がんってなに？？<br>なんで「がん」？？</p>
           </div>
         </div>
         <div class="chara1"></div>
@@ -89,14 +93,14 @@
 
         <div class="column">
           <div class="left-column">
-            <h3>テニスの続き</h3>
-            <video src="video/tacotube03.mp4" poster="images/poster/t03.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>ザキでよくしていたテニス<br>きっと、高校生</p>
+            <h3>撮してよ</h3>
+            <video src="video/tacotube08.mp4" poster="images/poster/t08.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>別の日のザキ<br>なつかしいね</p>
           </div>
           <div class="right-culumn">
-            <h3>フレッシュマン</h3>
-            <video src="video/tacotube04.mp4" poster="images/poster/t04.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>二人が合流<br>多分、社会人</p>
+            <h3>テニスに夢中</h3>
+            <video src="video/tacotube07.mp4" poster="images/poster/t07.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>さらにテニスの続き<br>高校生だったはず</p>
           </div>
         </div>
         <div class="blank3"></div>
