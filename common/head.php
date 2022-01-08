@@ -22,7 +22,7 @@
 <meta name=”robots” content=”noindex”>
 <title><?= $title ?></title>
 <meta name="description" content="懐かしい過去動画">
-<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css?v=20220108" rel="stylesheet" type="text/css">
 <link rel="icon" type="image/x-icon" href="../favicon.ico">
 <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="192x192" href="../android-touch-icon.png">
