@@ -18,8 +18,6 @@ body {
 	max-width: 1200px;
 	margin: 40px auto;
 	padding: 0 15px;
-	min-height: 80%;
-	min-height: calc(100% - 200px);
 }
 
 /*=====================
@@ -229,7 +227,8 @@ ul {
 }
 
 footer {
-	padding: 8px;
+	padding: 10px;
+	line-height: 30px;
 	background-color: rgb(235, 218, 181);
 	color: black;
 	text-align: right;
@@ -268,22 +267,21 @@ a:hover {
 }
 
 .blank3 {
+	height: 150px;
+}
+
+.blank100 {
 	height: 100px;
 }
 
-.blank4 {
-	margin-top: -5rem;
-}
-
-.chara {
-	overflow: hidden;
-}
-
 .chara1 {
-	margin-bottom: 2rem;
-	height: 400px;
 	background: url("../images/teru.png")no-repeat;
-	background-size: 30%;
+	position: absolute;
+	max-width: 350px;
+	min-width: 350px;
+	width: 90%;
+	height: 90%;
+	background-size: 40%;
 	animation: stepline 10s steps(250) infinite;
 }
 
@@ -296,51 +294,68 @@ a:hover {
 }
 
 .chara3 {
-	height: 550px;
 	background: url("../images/notio.png")no-repeat;
-	background-size: 60%;
-	background-position: -40%;
+	position: absolute;
+	max-width: 350px;
+	min-width: 350px;
+	width: 100%;
+	height: 100%;
+	background-size: 53%;
+	background-position: -35px -10px;
 	animation: sway 2.5s infinite;
 	opacity: 1;
 }
 
 .chara4 {
-	margin-top: -25rem;
-	height: 300px;
 	background: url("../images/kura.png")no-repeat;
-	background-size: 35%;
+	position: absolute;
+	max-width: 350px;
+	min-width: 350px;
+	width: 100%;
+	height: 100%;
+	background-size: 40%;
+	background-position: 230px 50px;
 	animation: yurayura 3s infinite;
 	animation-timing-function: ease-in-out;
 	animation-direction: alternate;
+	z-index: 100;
 }
 
 .chara5 {
-	margin-top: -14rem;
-	height: 300px;
 	background: url("../images/fukun.png")no-repeat;
-	background-size: 35%;
+	position: absolute;
+	max-width: 350px;
+	min-width: 350px;
+	width: 100%;
+	height: 100%;
+	background-size: 33%;
+	background-position: 220px -5px;
 	animation: yurayura2 3s infinite;
 	animation-timing-function: ease-in-out;
 	animation-direction: alternate;
 }
 
 .chara6 {
-	margin-bottom: -8rem;
-	height: 300px;
 	background: url("../images/hara.png")no-repeat;
-	background-size: 33%;
-	animation: yurayura2 3s infinite;
+	position: absolute;
+	max-width: 400px;
+	min-width: 350px;
+	width: 100%;
+	height: 100%;
+	background-size: 50%;
+	background-position: 180px 0;
+	animation: yurayura 3s infinite;
 	animation-timing-function: ease-in-out;
 	animation-direction: alternate;
 }
 
 @keyframes stepline {
 	0% {
-		background-position: -30% 0;
+		background-position: -20% 10px;
 	}
 
 	100% {
-		background-position: 120% 0;
+		background-position: 120% 10px;
 	}
 }
 
@@ -388,21 +403,21 @@ img {
 
 @keyframes yurayura {
 	0% {
-		transform: translate(30%, 0);
+		transform: translate(-150px, 0);
 	}
 
 	100% {
-		transform: translate(60%, 0);
+		transform: translate(0, 0);
 	}
 }
 
 @keyframes yurayura2 {
 	0% {
-		transform: translate(70%, 0);
+		transform: translate(-60px, 0);
 	}
 
 	100% {
-		transform: translate(30%, 0);
+		transform: translate(0%, 0);
 	}
 }
 
@@ -486,41 +501,6 @@ a.more:active .more-top {
 	background-image: linear-gradient(to right, #f2f2f2 0%, #b4b4b4 48%, #767676 100%);
 	-webkit-box-shadow: 0 8px 0 #c4cacc, inset 1px -1px 10px 0 rgba(0, 0, 0, 0.2);
 	box-shadow: 0 8px 0 #c4cacc, inset 1px -1px 10px 0 rgba(0, 0, 0, 0.2);
-}
-
-/*=====================
-780px以上
-=====================*/
-
-@media (min-width: 780px) {
-
-	.chara4, .chara5 {
-		margin-bottom: 5rem;
-		height: 350px;
-	}
-
-	.chara6 {
-		margin-bottom: 1rem;
-	}
-}
-
-/*=====================
-タブレット
-=====================*/
-
-@media (max-width: 600px) {
-	.chara1, .chara2, .chara3 {
-		height: 250px;
-	}
-
-	.chara4, .chara5 {
-		margin-top: -13rem;
-		height: 300px;
-	}
-
-	.blank4 {
-		margin-top: -9rem;
-	}
 }
 
 /*=====================

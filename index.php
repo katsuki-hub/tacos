@@ -63,12 +63,10 @@
   <div class="main">
     <article>
       <section id="gallery">
-        <div class="chara">
-          <div class="chara3"></div>
-          <div class="chara4"></div>
-          <div class="chara5"></div>
-          <div class="blank4"></div>
-        </div>
+        <div class="chara3"></div>
+        <div class="chara4"></div>
+        <div class="chara5"></div>
+        <div class="blank3"></div>
         <h2>NEWS</h2>
         <div class="frame">
           <ul>
@@ -88,9 +86,6 @@
             <p>がんってなに？？<br>なんで「がん」？？</p>
           </div>
         </div>
-        <div class="chara1"></div>
-        <div class="blank0"></div>
-
         <div class="column">
           <div class="left-column">
             <h3>撮してよ</h3>
@@ -111,9 +106,8 @@
           <span class="more-top"><span>動画一覧へ</span></span>
         </a>
       </section>
-
+      <div class="chara1"></div>
       <div class="blank3"></div>
-
       <section>
         <div class="don">
           <h2>タコスのゲームチャンネル</h2>

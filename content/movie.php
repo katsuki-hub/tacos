@@ -20,9 +20,8 @@
     <article>
       <section>
         <h2>ゆかいな仲間の過去動画一覧</h2>
-        <div class="chara">
           <div class="chara6"></div>
-        </div>
+          <div class="blank100"></div>
 
         <!--
         <div class="item">
@@ -33,7 +32,6 @@
         -->
 
         <div class="items">
-
         <div class="item">
           <h3>トライ！</h3>
           <video src="../video/tacotube10.mp4" poster="../images/poster/t10.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
