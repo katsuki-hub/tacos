@@ -274,10 +274,10 @@ a:hover {
 .chara1 {
 	background: url("../images/teru.png")no-repeat;
 	position: absolute;
-	max-width: 300px;
+	max-width: 500px;
 	min-width: 300px;
-	width: 90%;
-	height: 90%;
+	width: 500px;
+	height: 300px;
 	background-size: 40%;
 	animation: stepline 10s steps(250) infinite;
 }
