@@ -77,24 +77,24 @@
         <div class="column">
           <div class="left-column">
             <h3>トライ！</h3>
-            <video class="play" src="https://tacos-2022.site/video/tacotube10.mp4" poster="images/poster/t10.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <video src="video/tacotube10.mp4" poster="images/poster/t10.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
             <p>と、と、と、トラーイ！！<br>どれをトライアスロン…</p>
           </div>
           <div class="right-culumn">
             <h3>がん</h3>
-            <video src="https://tacos-2022.site/video/tacotube09.mp4" onClick="gtag('event', play, {'event_category': 'video', 'event_label': 'tacotube09'});" poster="images/poster/t09.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <video src="video/tacotube09.mp4" poster="images/poster/t09.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
             <p>がんってなに？？<br>なんで「がん」？？</p>
           </div>
         </div>
         <div class="column">
           <div class="left-column">
             <h3>撮してよ</h3>
-            <video src="https://tacos-2022.site/video/tacotube08.mp4" onClick="gtag('event', play, {'event_category': 'video', 'event_label': 'tacotube08'});" poster="images/poster/t08.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <video src="video/tacotube08.mp4" poster="images/poster/t08.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
             <p>別の日のザキ<br>なつかしいね</p>
           </div>
           <div class="right-culumn">
             <h3>テニスに夢中</h3>
-            <video src="https://tacos-2022.site/video/tacotube07.mp4" onClick="gtag('event', play, {'event_category': 'video', 'event_label': 'tacotube07'});" poster="images/poster/t07.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <video src="video/tacotube07.mp4" poster="images/poster/t07.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
             <p>さらにテニスの続き<br>高校生だったはず</p>
           </div>
         </div>
