@@ -74,6 +74,20 @@
           </ul>
         </div>
         <h2>最近アップした ちょっぴり昔の動画</h2>
+
+        <div class="column">
+          <div class="left-column">
+            <h3>どうしたお前ら</h3>
+            <video src="video/tacotube12.mp4" poster="images/poster/t12.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>ラグビーの続き<br>高校生の頃よくやったね</p>
+          </div>
+          <div class="right-culumn">
+            <h3>タッチダウン！！</h3>
+            <video src="video/tacotube11.mp4" poster="images/poster/t11.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>テニスからラグビーへ<br>タッチダウン</p>
+          </div>
+        </div>
+
         <div class="column">
           <div class="left-column">
             <h3>トライ！</h3>
@@ -86,18 +100,7 @@
             <p>がんってなに？？<br>なんで「がん」？？</p>
           </div>
         </div>
-        <div class="column">
-          <div class="left-column">
-            <h3>撮してよ</h3>
-            <video src="video/tacotube08.mp4" poster="images/poster/t08.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>別の日のザキ<br>なつかしいね</p>
-          </div>
-          <div class="right-culumn">
-            <h3>テニスに夢中</h3>
-            <video src="video/tacotube07.mp4" poster="images/poster/t07.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>さらにテニスの続き<br>高校生だったはず</p>
-          </div>
-        </div>
+
         <div class="blank3"></div>
 
         <!-- 過去動画ボタン -->

@@ -20,8 +20,8 @@
     <article>
       <section>
         <h2>ゆかいな仲間の過去動画一覧</h2>
-          <div class="chara6"></div>
-          <div class="blank100"></div>
+        <div class="chara6"></div>
+        <div class="blank100"></div>
 
         <!--
         <div class="item">
@@ -32,23 +32,35 @@
         -->
 
         <div class="items">
-        <div class="item">
-          <h3>トライ！</h3>
-          <video src="../video/tacotube10.mp4" poster="../images/poster/t10.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-          <p>と、と、と、トラーイ！！<br>どれをトライアスロン…</p>
-        </div>
+          <div class="item">
+            <h3>どうしたお前ら</h3>
+            <video src="../video/tacotube12.mp4" poster="../images/poster/t12.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>ラグビーの続き<br>高校生の頃よくやったね</p>
+          </div>
 
-        <div class="item">
-          <h3>がん</h3>
-          <video src="../video/tacotube09.mp4" poster="../images/poster/t09.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-          <p>がんってなに？？<br>なんで「がん」？？</p>
-        </div>
+          <div class="item">
+            <h3>タッチダウン！！</h3>
+            <video src="../video/tacotube11.mp4" poster="../images/poster/t11.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>テニスからラグビーへ<br>タッチダウン</p>
+          </div>
 
-        <div class="item">
-          <h3>撮してよ</h3>
-          <video src="../video/tacotube08.mp4" poster="../images/poster/t08.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-          <p>別の日のザキ<br>なつかしいね</p>
-        </div>
+          <div class="item">
+            <h3>トライ！</h3>
+            <video src="../video/tacotube10.mp4" poster="../images/poster/t10.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>と、と、と、トラーイ！！<br>どれをトライアスロン…</p>
+          </div>
+
+          <div class="item">
+            <h3>がん</h3>
+            <video src="../video/tacotube09.mp4" poster="../images/poster/t09.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>がんってなに？？<br>なんで「がん」？？</p>
+          </div>
+
+          <div class="item">
+            <h3>撮してよ</h3>
+            <video src="../video/tacotube08.mp4" poster="../images/poster/t08.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>別の日のザキ<br>なつかしいね</p>
+          </div>
 
           <div class="item">
             <h3>テニスに夢中</h3>
