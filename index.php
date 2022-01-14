@@ -77,7 +77,7 @@
         <div class="column">
           <div class="left-column">
             <h3>トライ！</h3>
-            <video src="https://tacos-2022.site/video/tacotube10.mp4" onClick="gtag('event', play, {'event_category': 'video', 'event_label': 'tacotube10'});" poster="images/poster/t10.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <video id="tacos" src="https://tacos-2022.site/video/tacotube10.mp4" poster="images/poster/t10.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
             <p>と、と、と、トラーイ！！<br>どれをトライアスロン…</p>
           </div>
           <div class="right-culumn">
