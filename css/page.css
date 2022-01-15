@@ -18,7 +18,7 @@
   background: rgb(255, 200, 187);
   width: 40px;
   height: 40px;
-  margin: 0 8px;
+  margin: 0 10px;
   text-align: center;
   font-weight: bold;
 }
@@ -27,7 +27,7 @@
   background: rgb(255, 200, 187);
   width: 40px;
   height: 40px;
-  margin: 0 8px;
+  margin: 0 10px;
   text-align: center;
   font-weight: bold;
 }
@@ -79,7 +79,7 @@
   color: #ffffff;
   font-weight: bold;
 	text-decoration: none;
-  padding: 6px 12px;
+  padding: 6px 16px;
 }
 
 .pagination li a:hover {
