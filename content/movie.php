@@ -32,6 +32,16 @@
         -->
 
         <div class="items">
+        <div class="item">
+          <h3>ビデオ撮りよる顔</h3>
+          <video src="../video/tacotube14.mp4" poster="../images/poster/t14.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+          <p>ラグビー終わり<br>普段の「ざき」</p>
+        </div>
+        <div class="item">
+          <h3>試合開始！</h3>
+          <video src="../video/tacotube13.mp4" poster="../images/poster/t13.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+          <p>試合を再開したドンタコス達<br>そして一旦中止</p>
+        </div>
           <div class="item">
             <h3>どうしたお前ら</h3>
             <video src="../video/tacotube12.mp4" poster="../images/poster/t12.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>

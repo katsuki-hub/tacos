@@ -78,6 +78,19 @@
 
         <div class="column">
           <div class="left-column">
+            <h3>ビデオ撮りよる顔</h3>
+            <video src="video/tacotube14.mp4" poster="images/poster/t14.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>ラグビー終わり<br>普段の「ざき」</p>
+          </div>
+          <div class="right-culumn">
+            <h3>試合開始！</h3>
+            <video src="video/tacotube13.mp4" poster="images/poster/t13.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>試合を再開したドンタコス達<br>そして一旦中止</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="left-column">
             <h3>どうしたお前ら</h3>
             <video src="video/tacotube12.mp4" poster="images/poster/t12.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
             <p>ラグビーの続き<br>高校生の頃よくやったね</p>
@@ -86,19 +99,6 @@
             <h3>タッチダウン！！</h3>
             <video src="video/tacotube11.mp4" poster="images/poster/t11.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
             <p>テニスからラグビーへ<br>タッチダウン</p>
-          </div>
-        </div>
-
-        <div class="column">
-          <div class="left-column">
-            <h3>トライ！</h3>
-            <video src="video/tacotube10.mp4" poster="images/poster/t10.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>と、と、と、トラーイ！！<br>どれをトライアスロン…</p>
-          </div>
-          <div class="right-culumn">
-            <h3>がん</h3>
-            <video src="video/tacotube09.mp4" poster="images/poster/t09.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>がんってなに？？<br>なんで「がん」？？</p>
           </div>
         </div>
 
