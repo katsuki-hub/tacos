@@ -70,7 +70,8 @@
         <h2>NEWS</h2>
         <div class="frame">
           <ul>
-            <li>5本くらい動画をアップしたよ！<br>動画多すぎ！！！</li>
+            <li>動画は気分が向いたら入れてくよ！持ってる動画あったら送って！</li>
+            <li>下のツールボックスからコロナ感染の国内外の最新データが確認できるよ(-_-*)</li>
           </ul>
         </div>
         <h2>最近アップした ちょっぴり昔の動画</h2>
@@ -113,8 +114,9 @@
       <div class="blank3"></div>
       <section>
         <div class="don">
-          <h2>タコスのゲームチャンネル</h2>
+          <h2>タコスのチャンネル</h2>
           <a href="https://youtube.com/channel/UC--hSAY-QaZVAkbtYxmlWbA"><img src="images/dontacos.jpg" alt="ドンタコス" width="70%"></a>
+          <a href="https://tool.katsumaru.blog"><img src="images/tool.png" alt="ツールボックス" width="70%"></a>
         </div>
       </section>
     </article>
