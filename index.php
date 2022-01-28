@@ -1,3 +1,10 @@
+<?php
+$fp = fopen('data/count.dat', 'r+b');
+flock($fp, LOCK_EX);
+$count = fgets($fp);
+$count++;
+?>
+
 <!doctype html>
 <html lang="ja" prefix="og:http://ogp.me/ns#">
 
@@ -121,8 +128,20 @@
       </section>
     </article>
   </div><!-- /main -->
-  <footer><small>&copy; 2022 TacosTube</small></footer>
+  <footer>
+    <div class="counter-area">
+      <span class="access-count"><?php echo $count; ?></span>
+    </div><!-- /.counter-area -->
+    <small>&copy; 2022 TacosTube</small>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </body>
 
 </html>
+
+<?php
+rewind($fp);
+fwrite($fp, $count);
+flock($fp, LOCK_UN);
+fclose($fp);
+?>

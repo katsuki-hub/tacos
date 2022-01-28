@@ -469,6 +469,25 @@ a.more:active .more-top {
 }
 
 /*=====================
+アクセスカウンター
+=====================*/
+
+.counter-area {
+  text-align: center;
+}
+
+.access-count {
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  padding: 6px 12px;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/*=====================
 スマホ
 =====================*/
 
