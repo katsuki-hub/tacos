@@ -1,8 +1,18 @@
 <?php
-$fp = fopen('data/count.dat', 'r+b');
-flock($fp, LOCK_EX);
-$count = fgets($fp);
-$count++;
+date_default_timezone_set('Asia/Tokyo');
+if (isset($_COOKIE["visitedLog"])) {
+  $logdata = $_COOKIE["visitedLog"];
+  $counter = $logdata["counter"];
+  $time = $logdata["time"];
+  $lasttime = date("Y年n月j日Ag時i分", $time);
+} else {
+  $counter = 0;
+  $lasttime = "直近で初めての訪問";
+}
+//訪問ログをクッキーに保存(30日有効)
+$result1 = setcookie('visitedLog[counter]', ++$counter, time() + 60 * 60 * 24 * 30);
+$result2 = setcookie('visitedLog[time]', time(), time() + 60 * 60 * 24 * 30);
+$result = ($result1 && $result2);
 ?>
 
 <!doctype html>
@@ -33,7 +43,7 @@ $count++;
   <meta name=”robots” content=”noindex”>
   <title>TacosTube</title>
   <meta name="description" content="懐かしい過去動画">
-  <link href="css/style.css?v=20220108" rel="stylesheet" type="text/css">
+  <link href="css/style.css?v=20220129" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="android-touch-icon.png">
@@ -130,7 +140,9 @@ $count++;
   </div><!-- /main -->
   <footer>
     <div class="counter-area">
-      <span class="access-count"><?php echo $count; ?></span>
+      <span class="access-count"><?php echo $counter; ?></span><br>
+      <?php echo "前回の訪問：", $lasttime; ?><br>
+      <small>※直近1カ月データ</small>
     </div><!-- /.counter-area -->
     <small>&copy; 2022 TacosTube</small>
   </footer>
@@ -138,10 +150,3 @@ $count++;
 </body>
 
 </html>
-
-<?php
-rewind($fp);
-fwrite($fp, $count);
-flock($fp, LOCK_UN);
-fclose($fp);
-?>

@@ -4,7 +4,7 @@
 <head>
   <?php $title = "ゆかいな仲間の過去動画一覧" ?>
   <?php require_once "../common/head.php"; ?>
-  <link href="../css/page.css" rel="stylesheet" type="text/css">
+  <link href="../css/page.css?v=20220129" rel="stylesheet" type="text/css">
 </head>
 
 <body>
