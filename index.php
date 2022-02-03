@@ -133,7 +133,7 @@ $count++;
       <?php
       require_once("common/es.php");
       ?>
-      <section>
+      <section id="board">
         <h2>掲示板</h2>
 
         <form method="POST" action="content/writeMemo.php">
@@ -180,6 +180,7 @@ $count++;
             echo '<span class="error">ファイルを読み込めませんでした</span>';
           }
           ?>
+          <form action="https://tacos-2022.site/#board"><input type="submit" value="リロード"></form>
         </div>
 
       </section>
