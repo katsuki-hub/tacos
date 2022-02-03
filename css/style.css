@@ -272,6 +272,22 @@ a:hover {
 	height: 100px;
 }
 
+li {
+	list-style: none;
+}
+
+form {
+	text-align: center;
+}
+
+.comment {
+	background: rgb(210, 210, 200);
+	max-height: 400px;
+	overflow: scroll;
+	font-size: 13px;
+	border: rgb(120, 119, 116) 5px solid;
+}
+
 .chara1 {
 	background: url("../images/teru.png")no-repeat;
 	position: absolute;
@@ -293,7 +309,7 @@ a:hover {
 	background-size: 55%;
 	background-position: -20px -10px;
 	animation: poyopoyo 2s ease-out infinite;
-  opacity: 1;
+	opacity: 1;
 }
 
 .chara4 {
@@ -350,12 +366,13 @@ a:hover {
 }
 
 @keyframes poyopoyo {
-  0%, 40%, 60%, 80% {
-    transform: scale(1.0);
-  }
-  50%, 70% {
-    transform: scale(0.95);
-  }
+	0%, 40%, 60%, 80% {
+		transform: scale(1.0);
+	}
+
+	50%, 70% {
+		transform: scale(0.95);
+	}
 }
 
 .don {
@@ -473,18 +490,18 @@ a.more:active .more-top {
 =====================*/
 
 .counter-area {
-  text-align: center;
+	text-align: center;
 }
 
 .access-count {
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
-  background: #000;
-  color: #fff;
-  padding: 6px 12px;
-  margin: 0 10px;
-  font-weight: bold;
+	display: inline-block;
+	font-size: 16px;
+	text-align: center;
+	background: #000;
+	color: #fff;
+	padding: 6px 12px;
+	margin: 0 10px;
+	font-weight: bold;
 }
 
 /*=====================
