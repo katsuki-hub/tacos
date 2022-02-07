@@ -146,7 +146,7 @@ $count++;
         </form>
 
         <?php
-        $line_num = 50; // 表示する行数
+        $line_num = 80; // 表示する行数
 
         $contents = file('data/comment.txt', FILE_IGNORE_NEW_LINES);
 
