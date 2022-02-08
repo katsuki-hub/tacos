@@ -32,6 +32,25 @@
         -->
 
         <div class="items">
+
+        <div class="item">
+          <h3>ジュースの結末</h3>
+          <video src="../video/tacotube20.mp4" poster="../images/poster/t20.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+          <p>走るあの人が<br>買ってきた物は</p>
+        </div>
+
+        <div class="item">
+          <h3>作戦の部屋へ</h3>
+          <video src="../video/tacotube19.mp4" poster="../images/poster/t19.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+          <p>お茶目なテルちゃん<br>ジュースを買う</p>
+        </div>
+
+        <div class="item">
+          <h3>2日前</h3>
+          <video src="../video/tacotube18.mp4" poster="../images/poster/t18.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+          <p>ドッキリ計画準備編<br>ダダスダスダダス！</p>
+        </div>
+
         <div class="item">
           <h3>V字のゴツ男とゴリラ</h3>
           <video src="../video/tacotube17.mp4" poster="../images/poster/t17.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>

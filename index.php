@@ -86,27 +86,27 @@ $count++;
 
         <div class="column">
           <div class="left-column">
-            <h3>V字のゴツ男とゴリラ</h3>
-            <video src="video/tacotube17.mp4" poster="images/poster/t17.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>V字になった<br>ゴツ男君</p>
+            <h3>ジュースの結末</h3>
+            <video src="video/tacotube20.mp4" poster="images/poster/t20.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>走るあの人が<br>買ってきた物は</p>
           </div>
           <div class="right-culumn">
-            <h3>キャッチボール</h3>
-            <video src="video/tacotube16.mp4" poster="images/poster/t16.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>最追試<br>再々追試</p>
+            <h3>作戦の部屋へ</h3>
+            <video src="video/tacotube19.mp4" poster="images/poster/t19.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>お茶目なテルちゃん<br>ジュースを買う</p>
           </div>
         </div>
 
         <div class="column">
           <div class="left-column">
-            <h3>なんつった？おれ？</h3>
-            <video src="video/tacotube15.mp4" poster="images/poster/t15.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>ざきでの日常<br>撮るのヤメテください</p>
+            <h3>2日前</h3>
+            <video src="video/tacotube18.mp4" poster="images/poster/t18.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>ドッキリ計画準備編<br>ダダスダスダダス！</p>
           </div>
           <div class="right-culumn">
-            <h3>ビデオ撮りよる顔</h3>
-            <video src="video/tacotube14.mp4" poster="images/poster/t14.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
-            <p>ラグビー終わり<br>普段の「ざき」</p>
+            <h3>V字のゴツ男とゴリラ</h3>
+            <video src="video/tacotube17.mp4" poster="images/poster/t17.jpg" playsinline width="100%" controls controlsList="nodownload" oncontextmenu="return false" preload="none"></video>
+            <p>V字になった<br>ゴツ男君</p>
           </div>
         </div>
 
@@ -146,7 +146,7 @@ $count++;
         </form>
 
         <?php
-        $line_num = 80; // 表示する行数
+        $line_num = 85; // 表示する行数
 
         $contents = file('data/comment.txt', FILE_IGNORE_NEW_LINES);
 
