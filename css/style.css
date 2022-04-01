@@ -293,6 +293,35 @@ form {
 	border: rgb(120, 119, 116) 5px solid;
 }
 
+input {
+	background: rgb(215, 206, 206);
+	border-color: rgb(109, 62, 62);
+	padding: 5px;
+	margin: 10px;
+	font-size: 18px;
+}
+
+select {
+	background: rgb(215, 206, 206);
+	border-color: rgb(109, 62, 62);
+	padding: 10px;
+	margin: 5px;
+	font-size: 16px;
+}
+
+input[type="submit"]:valid {
+	background: rgb(0, 0, 0);
+	border-color: rgb(194, 188, 219);
+	color: #fff;
+	padding: 5px;
+	margin: 5px;
+	font-size: 20px;
+}
+
+.relo {
+	text-align: center;
+}
+
 .chara1 {
 	background: url("../images/teru.png")no-repeat;
 	position: absolute;

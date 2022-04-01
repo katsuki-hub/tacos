@@ -35,7 +35,7 @@ $count++;
   <meta name=”robots” content=”noindex”>
   <title>TacosTube</title>
   <meta name="description" content="懐かしい過去動画">
-  <link href="css/style.css?v=20220203" rel="stylesheet" type="text/css">
+  <link href="css/style.css?v=20220401" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="android-touch-icon.png">
@@ -148,7 +148,7 @@ $count++;
         </form>
 
         <?php
-        $line_num = 85; // 表示する行数
+        $line_num = 100; // 表示する行数
 
         $contents = file('data/comment.txt', FILE_IGNORE_NEW_LINES);
 
@@ -182,7 +182,7 @@ $count++;
             echo '<span class="error">ファイルを読み込めませんでした</span>';
           }
           ?>
-          <form action="https://tacos-2022.site/#board"><input type="submit" value="リロード"></form>
+          <div class="relo"><a href="https://tacos-2022.site/#board"><button type="button">リロード</button></a></div>
         </div>
 
       </section>
