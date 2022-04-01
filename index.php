@@ -1,3 +1,5 @@
+<?php require_once("common/session.php"); ?>
+
 <?php
 $fp = fopen('data/count.dat', 'r+b');
 flock($fp, LOCK_EX);
@@ -191,6 +193,7 @@ $count++;
     <div class="counter-area">
       <span class="access-count"><?php echo $count; ?></span>
     </div><!-- /.counter-area -->
+    <a href="log/logout.php" class="log">ログアウトする</a><br>
     <small>&copy; 2022 TacosTube</small>
   </footer>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

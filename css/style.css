@@ -280,6 +280,11 @@ form {
 	text-align: center;
 }
 
+.log {
+	font-weight: bold;
+	background: rgb(201, 226, 142);
+}
+
 .comment {
 	background: rgb(210, 210, 200);
 	max-height: 400px;
